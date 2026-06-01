@@ -1,0 +1,42 @@
+
+=== Experimento: n=100, dados Ordenados ===
+  Altura da arvore: 100
+  Busca [inicio=1]: Seq=1 comp | Bin=6 comp | Arv=1 comp | Altura=100
+  Busca [meio=50]: Seq=50 comp | Bin=1 comp | Arv=50 comp | Altura=100
+  Busca [fim=100]: Seq=100 comp | Bin=7 comp | Arv=100 comp | Altura=100
+  Busca [inexistente=1099]: Seq=100 comp | Bin=7 comp | Arv=100 comp | Altura=100
+
+=== Experimento: n=100, dados Embaralhados ===
+  Altura da arvore: 16
+  Busca [inicio=1]: Seq=63 comp | Bin=6 comp | Arv=3 comp | Altura=16
+  Busca [meio=50]: Seq=91 comp | Bin=1 comp | Arv=9 comp | Altura=16
+  Busca [fim=100]: Seq=2 comp | Bin=7 comp | Arv=2 comp | Altura=16
+  Busca [inexistente=1099]: Seq=100 comp | Bin=7 comp | Arv=2 comp | Altura=16
+
+=== Experimento: n=10000, dados Ordenados ===
+  Altura da arvore: 10000
+  Busca [inicio=1]: Seq=1 comp | Bin=13 comp | Arv=1 comp | Altura=10000
+  Busca [meio=5000]: Seq=5000 comp | Bin=1 comp | Arv=5000 comp | Altura=10000
+  Busca [fim=10000]: Seq=10000 comp | Bin=14 comp | Arv=10000 comp | Altura=10000
+  Busca [inexistente=10999]: Seq=10000 comp | Bin=14 comp | Arv=10000 comp | Altura=10000
+
+=== Experimento: n=10000, dados Embaralhados ===
+  Altura da arvore: 32
+  Busca [inicio=1]: Seq=2963 comp | Bin=13 comp | Arv=12 comp | Altura=32
+  Busca [meio=5000]: Seq=9801 comp | Bin=1 comp | Arv=23 comp | Altura=32
+  Busca [fim=10000]: Seq=8088 comp | Bin=14 comp | Arv=9 comp | Altura=32
+  Busca [inexistente=10999]: Seq=10000 comp | Bin=14 comp | Arv=9 comp | Altura=32
+
+=== Experimento: n=100000, dados Ordenados ===
+  Altura da arvore: 100000
+  Busca [inicio=1]: Seq=1 comp | Bin=16 comp | Arv=1 comp | Altura=100000
+  Busca [meio=50000]: Seq=50000 comp | Bin=1 comp | Arv=50000 comp | Altura=100000
+  Busca [fim=100000]: Seq=100000 comp | Bin=17 comp | Arv=100000 comp | Altura=100000
+  Busca [inexistente=100999]: Seq=100000 comp | Bin=17 comp | Arv=100000 comp | Altura=100000
+
+=== Experimento: n=100000, dados Embaralhados ===
+  Altura da arvore: 43
+  Busca [inicio=1]: Seq=80371 comp | Bin=16 comp | Arv=17 comp | Altura=43
+  Busca [meio=50000]: Seq=77956 comp | Bin=1 comp | Arv=20 comp | Altura=43
+  Busca [fim=100000]: Seq=56098 comp | Bin=17 comp | Arv=14 comp | Altura=43
+  Busca [inexistente=100999]: Seq=100000 comp | Bin=17 comp | Arv=14 comp | Altura=43
